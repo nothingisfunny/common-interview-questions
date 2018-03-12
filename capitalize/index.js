@@ -3,5 +3,5 @@
 //   capitalize('look, it is working!') --> 'Look, It Is Working!'
 
 function capitalize(str) {
-  return str.split(" ").map(word => word[0].toUpperCase() + word.slice(1, word.length)).join(" ")
+  return str.split(" ").map(word => word[0].toUpperCase() + word.slice(1)).join(" ")
 }
