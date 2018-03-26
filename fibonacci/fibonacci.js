@@ -35,4 +35,3 @@ function memoize(fn){
 }
 
 const fib = memoize(slowFib);
-module.exports = fib;
